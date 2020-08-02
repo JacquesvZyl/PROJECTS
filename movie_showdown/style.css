@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  color: white;
+}
+
+header {
+  background: rgb(28, 32, 48);
+  color: white;
+  min-height: 10vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex: 1 1 40rem;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.searchbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+}
+.searchbox input {
+  width: 300px;
+  height: 50%;
+  font-size: 1.8rem;
+}
+
+.moviecontainer {
+  display: flex;
+  margin: 3% 5%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.moviebox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px;
+  padding: 10px 5px;
+  width: 320px;
+  background-color: rgb(28, 32, 48);
+}
+.moviebox img {
+  height: 460px;
+  width: 300px;
+}
+
+.moviebox button {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.moviebox button:hover {
+  cursor: pointer;
+}

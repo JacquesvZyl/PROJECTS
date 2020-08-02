@@ -1,0 +1,55 @@
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.app-wrap {
+  background: rgba(86, 86, 88, 0.6);
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.search-box {
+  width: 80%;
+  border: none;
+  font-size: 1.6rem;
+  margin: 1rem 0rem;
+}
+
+.city {
+  font-size: 1.7rem;
+}
+.current {
+  line-height: 2rem;
+}
+.temp {
+  margin: 2rem 0rem;
+  font-size: 3rem;
+}
+
+.sunny {
+  background-image: url(./img/sunny.jpg);
+}
+
+.cloudy {
+  background-image: url(./img/grey-white-clouds-158163.jpg);
+}
+
+.rainy {
+  background-image: url(./img/rainy.jpg);
+}
+
+.clear {
+  background-image: url(./img/clear.jpg);
+}
+/* 
+Clear
+Clouds */
